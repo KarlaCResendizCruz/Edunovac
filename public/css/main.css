@@ -1,0 +1,264 @@
+
+
+@font-face {
+    font-family: "Amaranth";
+    src: url(../fonts/Amaranth-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "SourceSans";
+    src: url(../fonts/SourceSansPro-Regular.ttf) format("truetype");
+}
+
+body{
+	margin-top: 60px;
+	background-color: #fff;
+}
+
+
+.img1{
+        width: 100%;
+        height: auto;
+      }
+
+
+
+.navbar{
+	border-radius: 0px;
+	margin-bottom: 0px;
+	border-bottom: 2px solid #bbb;
+	background-color: #fff;
+	padding: 7px;
+	/*background-color: #023859;*/
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #066DA5;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	/*background: rgba(255, 255, 255,0.1);*/
+	background: rgba(255, 135, 26, 1);    
+	color: #fff;
+}
+
+
+.navbar-brand{
+   	padding: 0px;
+}
+
+.navbar-brand>img{
+	height: 100%;
+	width: auto;
+	padding: 1px 1px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #ddd;
+	background-color: #ee5100;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+    border-color: #ee5100;
+    border-width: 2px;
+    color: #ee5100;
+}
+
+
+@media screen and (max-width: 900px){
+
+	.navbar-default .navbar-nav>li>a{
+	    font-size: 10px;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	}
+
+}
+
+#nosotros{
+	background-color: #115b8a;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: white;
+	text-align: justify;
+	font-weight: 200;
+}
+
+#nosotros h3{
+	font-weight: bold;
+	color: #EF7C37;
+	text-shadow: 6px 4px 10px #151313;
+}
+
+#nosotros p{
+	font-size: 16px;
+}
+
+#filosofia{
+	background-color: #5293ef;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: white;
+	text-align: justify;
+	font-weight: 200;
+}
+
+#filosofia h3{
+	font-weight: bold;
+	color: #EF7C37;
+	text-shadow: 6px 4px 10px #151313;
+}
+
+#filosofia p{
+	font-size: 16px;
+}
+
+
+#contacto{
+	
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: black;
+	text-align: justify;
+	font-weight: 200;
+	background-color: #f2f2e8;
+/*	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	opacity: 0.95;*/
+}
+
+#contacto h2{
+	font-weight: bold;
+	color: #EF7C37;
+	
+}
+
+#contacto label{
+	font-weight: bold;
+	color: #EF7C37;
+	
+}
+
+
+#contacto p{
+	font-size: 17px;
+}
+
+.form-control{
+	border: 2px solid #ef7c37;
+}
+
+.form-control:hover{
+	border: 2px solid #4070a6;
+}
+
+
+
+
+#evalua{
+	background-color: #EF7C37;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: white;
+	text-align: justify;
+	font-weight: 200;
+	font-size: 16px;
+	font-family: "SourceSans";
+
+}
+
+#evalua h3{
+	font-weight: bold;
+	color: white;
+	text-shadow: 6px 4px 10px #151313;
+	font-family: "Amaranth";
+}
+
+
+
+#educoor{
+	background-color: #066da5;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: white;
+	text-align: justify;
+	font-weight: 200;
+	font-size: 16px;
+	font-family: "SourceSans";
+
+}
+
+#educoor h3{
+	font-weight: bold;
+	color: white;
+	text-shadow: 6px 4px 10px #151313;
+	font-family: "Amaranth";
+}
+
+
+#educond{
+	/*background-color: #063C5D;*/
+	background: linear-gradient(141deg, #066da5 0%, #066dc2 51%, #115783 75%);
+	opacity: 0.95;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: white;
+	text-align: justify;
+	font-weight: 200;
+	font-size: 16px;
+	font-family: "SourceSans";
+
+}
+
+#educond h3{
+	font-weight: bold;
+	color: white;
+	text-shadow: 6px 4px 10px #151313;
+	font-family: "Amaranth";
+}
+
+
+
+#programa .img1{
+	width: 100%;
+	height: auto;
+ }
+
+#modelo{
+
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: black;
+	text-align: justify;
+	font-weight: 200;
+	font-size: 16px;
+	font-family: "SourceSans";
+	background-color: #f2f2e8;
+
+}
+
+#modelo h3{
+	font-weight: bold;
+	color: black;
+	text-shadow: 6px 4px 10px #fff;
+	font-family: "Amaranth";
+}
+
+footer{
+	background-color: #063C5D;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer h5{
+	
+	font-weight: bold;
+
+}
