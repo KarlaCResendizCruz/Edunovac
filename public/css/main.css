@@ -83,7 +83,10 @@ body{
 }
 
 #nosotros{
-	background-color: #115b8a;
+/*	background-color: #115b8a;
+	background-color: #ecf0f5; */
+	background: url('../img/fondo-n.png');
+	background-size: 100% auto;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	color: white;
@@ -102,7 +105,9 @@ body{
 }
 
 #filosofia{
-	background-color: #5293ef;
+	/*background-color: #5293ef;*/
+	background: url('../img/fondo-f.png');
+	background-size: 100% auto;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	color: white;
@@ -223,6 +228,27 @@ body{
 	font-family: "Amaranth";
 }
 
+
+#apps{
+	background: url('../img/fondo-apps.png');
+	background-size: 100% auto;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	color: white;
+	text-align: justify;
+	font-weight: 200;
+	font-size: 16px;
+	font-family: "SourceSans";
+}
+
+
+
+#apps h3{
+	font-weight: bold;
+	color: white;
+	text-shadow: 6px 4px 10px #151313;
+	font-family: "Amaranth";
+}
 
 
 #programa .img1{

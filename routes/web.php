@@ -22,3 +22,8 @@ Route::get('/nuestras-apps', function(){
 Route::get('/programa-educativo', function(){
     return view('index.programa');
 });
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -45,7 +45,7 @@
     <div class="col-md-12">
       <div class="col-md-5"> 
         <center>
-        <img src="{{url('img/nosotros.png')}}" class="img-responsive" style="width: 30%; height: auto;">
+        <img src="{{url('img/nosotros.png')}}" class="img-responsive" style="width: 100%; height: auto;">
         </center>
       </div>
       <div class="col-md-7">
