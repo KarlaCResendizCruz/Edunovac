@@ -23,6 +23,18 @@ Route::get('/programa-educativo', function(){
     return view('index.programa');
 });
 
+Route::get('/manual_profesionalizacion', function(){
+    return view('index.profesionalzacion');
+});
+
+Route::get('/manual_capacitacion', function(){
+    return view('index.manualc');
+});
+
+Route::get('/manual_profesionalizacion', function(){
+    return view('index.manualp');
+});
+
 
 Auth::routes();
 

@@ -48,10 +48,18 @@
       <hr>
         <div class="col-md-12">
           <div class="col-md-6">
-            <a href="https://drive.google.com/open?id=1c3iHCuHg4iabW2XdX5ktjU8SZXMZI4m8" target="_blank" class="btn btn-primary btn-block">Manual de Profesionalización</a>
+          <center>
+            <a href="{{url('/manual_profesionalizacion')}}" target="_blank">
+              <img class="img-responsive" src="{{asset('img/botonp.png')}}" style="width:300px; height: auto;">
+            </a>
+          </center>
           </div>
           <div class="col-md-6">
-            <a href="https://drive.google.com/open?id=1c3iHCuHg4iabW2XdX5ktjU8SZXMZI4m8" target="_blank" class="btn btn-primary btn-block">Manual de Capacitación</a>
+          <center>
+            <a href="{{url('/manual_capacitacion')}}" target="_blank">
+              <img class="img-responsive" src="{{asset('img/botonc.png')}}" style="width:300px; height: auto;">
+            </a>
+          </center>
           </div>
         </div>
       </div>
